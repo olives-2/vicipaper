@@ -29,7 +29,7 @@ npm install
 npm run dev
 ```
 
-*note*: Bun can also be used, and is what I used duringthe development. However, the Vicinae documentation only cites npm, so be careful about using any other package manager.
+*note*: Bun can also be used, and is what I used during the development. However, the Vicinae documentation only cites npm, so be careful about using any other package manager.
 
 ## Usage
 
