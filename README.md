@@ -29,11 +29,11 @@ npm install
 npm run dev
 ```
 
-*note*: Bun can also be used, and is what I used duringthe development. However, the Vicinae documentation only cites npm, so be careful about using any other package manager.
+*note*: Bun can also be used, and is what I used during development. However, the Vicinae documentation only cites npm, so be careful about using any other package manager.
 
 ## Usage
 
-Run the [Deeplink](vicinae://extensions/Matis_Olives/wallpaper/wallpaper-setter) `vicinae://extensions/Matis_Olives/wallpaper/wallpaper-setter` with a vind on your desired window manager/compositor/desktop environment, or run the "Set Wallpaper" command in Vicinae. Fill the preferences, search and select the wallpaper to set!
+Run the [Deeplink](vicinae://extensions/Matis_Olives/wallpaper/wallpaper-setter) `vicinae://extensions/Matis_Olives/wallpaper/wallpaper-setter` with a bind on your desired window manager/compositor/desktop environment, or run the "Set Wallpaper" command in Vicinae. Fill the preferences, search and select the wallpaper to set!
 
 ### Actions
 
@@ -77,7 +77,7 @@ awww img %img%
 - [ ] Add metadata for each wallpaper
 - [ ] Add caching
 - [ ] Handle keyword based wallpaper search
-- [ ] Add action to set a random wallpaper
+- [ ] Add command to set a random wallpaper
 
 ## Additional notes
 
