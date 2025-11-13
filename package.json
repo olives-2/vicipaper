@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vicinaehq/vicinae/refs/heads/main/extra/schemas/extension.json",
+  "name": "wallpaper",
+  "title": "Vicipaper",
+  "description": "Select an image to set as a wallpaper.",
+  "categories": [],
+  "license": "MIT",
+  "author": "Matis_Olives",
+  "contributors": [],
+  "pastContributors": [],
+  "icon": "extension_icon.png",
+  "commands": [
+    {
+      "name": "wallpaper-setter",
+      "title": "Set Wallpaper",
+      "subtitle": "Select an image to set as a wallpaper.",
+      "description": "Select an image to set as a wallpaper with a custom command",
+      "mode": "view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "directory",
+      "title": "Directory",
+      "description": "Set the directory in which wallpapers are stored.",
+      "required": true,
+      "type": "textfield"
+    },
+    {
+      "name": "command",
+      "title": "Command",
+      "description": "Set the command to run to apply the wallpaper. References to \"%img\" will be replaced with the path of the wallpaper.",
+      "required": true,
+      "type": "textfield"
+    },
+    {
+      "name": "recursive",
+      "label": "Recursive Search",
+      "title": "Recursive Search",
+      "description": "Make the wallpaper search recursive. Defaults to false.",
+      "required": false,
+      "default": false,
+      "type": "checkbox"
+    },
+    {
+      "name": "columns",
+      "title": "Columns",
+      "description": "Number of columns to display. Defaults to 3.",
+      "required": false,
+      "default": "3",
+      "type": "textfield"
+    }
+  ],
+  "scripts": {
+    "build": "vici build",
+    "dev": "vici develop"
+  },
+  "dependencies": {
+    "@vicinae/api": "^0.13.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
