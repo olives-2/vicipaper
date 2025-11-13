@@ -18,7 +18,7 @@ const SUPPORTED_FILE_TYPES = [
   "tiff",
   "webp",
   "bmp",
-  "farbfeld",
+  "ff",
   "svg"
 ];
 
