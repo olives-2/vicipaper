@@ -1,7 +1,7 @@
 import path from 'node:path';
 import fs from "node:fs";
 import os from "os";
-import { type Wallpaper } from './wallpaper-setter';
+import { type Wallpaper } from './types';
 
 /**
  * File types supported by awww (previously swww)
