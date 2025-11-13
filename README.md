@@ -37,7 +37,7 @@ Run the [Deeplink](vicinae://extensions/Matis_Olives/wallpaper/wallpaper-setter)
 
 ### Actions
 
-- "Set Wallpaper": sets the wallpaper's 
+- "Set Wallpaper": sets the wallpaper
 - "Copy Wallpaper path": copies the wallpaper's path to the clipboard.
 - "Open Wallpaper": opens the wallpaper using your system's default application for the wallpaper's file type.
 - "Show Wallpaper directory": opens the wallpaper's parent folder / directory using your system's default file browser.
