@@ -65,7 +65,7 @@ For [AWWW](https://codeberg.org/LGFae/awww), you could use something like this:
 awww img %img%
 ```
 
-*note*: AWWW's executable is still named `swww` in most package managers. Use `swww` of `awww` depending on which version you are using.
+*note*: AWWW's executable is still named `swww` in most package managers. Use `swww` or `awww` depending on which version you are using.
 
 ## Roadmap
 
